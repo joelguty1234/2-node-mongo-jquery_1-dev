@@ -1,5 +1,5 @@
-[build]
-  functions = "functions"
+[functions]
+  external_node_modules = ["express", "mongoose"]
   node_bundler = "esbuild"
 
 [[redirects]]
