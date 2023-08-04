@@ -6,7 +6,6 @@
   "author": "Joel Gutierrez",
   "license": "MIT",
   "scripts": {
-    "build": "netlify-lambda build express",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
