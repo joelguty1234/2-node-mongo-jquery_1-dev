@@ -2,9 +2,9 @@ const app = require("./app");
 const port = 3000;
 const mongoose = require("mongoose")
 require('dotenv').config();
-//const password = process.env.MONGODB_PASSWORD;
-const password = "76nAM37BezSpJvuM"
-const urlMongoDb = `mongodb+srv://joelguty33:${password}@api-rest-devguty22.r96pnd9.mongodb.net/apidb&authSource=admin`
+const password = process.env.MONGODB_PASSWORD;
+//const password = "76nAM37BezSpJvuM"
+const urlMongoDb = `mongodb+srv://joelguty33:${password}@api-rest-devguty22.r96pnd9.mongodb.net/apidb`
 
 
 async function startServer() {
